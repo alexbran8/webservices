@@ -1,6 +1,10 @@
 import Link from 'next/link'
+
+import Image from "next/image"
+
+import web_logo from '../static/webservices_logo.jpg'
 export default () => (
   <div>
-    <img src={'https://alexbran8.github.io/portofolio/static/media/profile_pic.dc3c7a30c7a932197518.jpg'}></img>
-     <Link href='/about' as={'/about'}><a>About</a></Link></div>
+  <Image src={web_logo}></Image>
+  </div>
 )

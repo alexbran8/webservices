@@ -14,7 +14,58 @@
     font-size: 3rem;
 }
 
+
+  
+
+
 body{
     /* background: linear-gradient(#e66465, #9198e5); */
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+  }
+  
+  article {
+    flex-grow: 1;
+    /* background-color: lightgreen; */
+  }
+  
+  footer   { 
+    background-color: orangered;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  body    { margin: 0; }
+
+
+  footer {
+    width: 100%;
+    background: #111;
+    margin-top: 1.5rem;
+}
+ul {
+    padding: 1.25rem;
+    text-align: center;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.25rem 0.75rem;
+}
+ul a {
+    color: #fff;
+    text-decoration: none;
+}
+ul a:hover {
+    text-decoration: underline;
+}
+
+footer p{
+    color:white;
 }

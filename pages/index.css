@@ -1,4 +1,7 @@
 .logo {
     height: 550px;
     border: 2px solid red;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-alingment: center;
 }

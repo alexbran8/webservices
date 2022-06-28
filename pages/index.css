@@ -40,6 +40,11 @@ main {
     display:flex;
     align-items:center;
     justify-content:center;
+    color:white;
+  }
+
+  footer a{
+    color:white
   }
   body    { margin: 0; }
 

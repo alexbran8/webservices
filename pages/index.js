@@ -10,15 +10,11 @@ export default () => (
         <Image src={logo} title="webservices logo" alt="webservices logo" className="logo"></Image>
         <h5>Servicii Profesionale Web Development, Web Design, Gazduire</h5>
         <nav></nav>
-
-
-
       </div>
-
       <article></article>
       <footer>
-        <p>dezvoltat de webservices.ro</p>
-    </footer>
+        <a href="https://www.facebook.com/webservices.ro" target="blank">dezvoltat de webservices.ro</a>
+      </footer>
     </main>
   </>
 )

@@ -9,9 +9,8 @@ const prefix = '/webservices/'
 
 
 export default () => (
-  <div className="logo" title="test">
+  <div className="logo-container" title="test">
     <Image src={logo}  title="webservices logo" alt="webservices logo" className="logo"></Image>
     {/* <Link href='/about' as={'/about'}><a>About</a></Link> */}
   </div>
-  // process.env.BACKEND_URL +
 )

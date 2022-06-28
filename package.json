@@ -10,7 +10,9 @@
     "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree  push  --prefix out origin gh-pages"
   },
   "dependencies": {
-    "next": "^12.1.6"
+    "next": "^12.1.6",
+    "react":"^18.2.0",
+    "react-dom":"^18.2.0"
   },
   "license": "ISC",
   "devDependencies": {

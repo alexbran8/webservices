@@ -28,6 +28,7 @@ main {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    padding: 1vh 1vh 1vh 1vh;
   }
   
   article {
@@ -78,7 +79,8 @@ footer p{
 
 .dev-env{
     /* border: 2px solid red; */
-    position: fixed;
+    /* position: fixed; */
+    margin-top: 10vh;
     top: 50%; left: 0;
     transform: translate(calc(50vw - 50%));
     font-size: 3rem;

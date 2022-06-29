@@ -75,3 +75,14 @@ ul a:hover {
 footer p{
     color:white;
 }
+
+.dev-env{
+    /* border: 2px solid red; */
+    position: fixed;
+    top: 50%; left: 0;
+    transform: translate(calc(50vw - 50%));
+    font-size: 3rem;
+    color: red;
+    text-align:center;
+    tranform: rotate(+30deg)
+  }

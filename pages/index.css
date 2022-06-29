@@ -38,6 +38,7 @@ main {
   
   article {
     flex-grow: 1;
+    margin: 1vh 1vh 1vh 1vh;
     /* background-color: lightgreen; */
   }
   

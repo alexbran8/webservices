@@ -3,11 +3,12 @@
     border: 2px solid red;
     margin-left: 200px;
     margin-right: 200px;
-    text-alingment: center;
+    
 }
 .logo-container{
     display: grid;
     place-items:center;
+    text-alingment: center;
 }
 
 .logo-container h1 {
@@ -15,20 +16,22 @@
 }
 
 
-  
-
+  main h5 {
+    text-align:center;
+  }
 
 body{
     /* background: linear-gradient(#e66465, #9198e5); */
     /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
+    margin: 1vh 1vh 1vh 1vh;
 }
 main {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    padding: 1vh 1vh 1vh 1vh;
+    
   }
   
   article {
@@ -83,7 +86,7 @@ footer p{
     margin-top: 10vh;
     top: 50%; left: 0;
     transform: translate(calc(50vw - 50%));
-    font-size: 3rem;
+    font-size: 2rem;
     color: red;
     text-align:center;
     tranform: rotate(+30deg)

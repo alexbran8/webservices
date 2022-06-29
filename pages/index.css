@@ -9,6 +9,7 @@
     display: grid;
     place-items:center;
     text-alingment: center;
+    margin: 1vh 1vh 1vh 1vh;
 }
 
 .logo-container h1 {
@@ -25,12 +26,13 @@ body{
     /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
-    margin: 1vh 1vh 1vh 1vh;
+    /* margin: 1vh 1vh 1vh 1vh; */
 }
 main {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    
     
   }
   

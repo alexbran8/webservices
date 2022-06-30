@@ -16,9 +16,9 @@ export default () => (
         </p>
       </div>
       <article></article>
-      <footer>
+      {/* <footer>
         <a href="https://www.facebook.com/webservices.ro" target="blank">dezvoltat de webservices.ro</a>
-      </footer>
+      </footer> */}
     </main>
   </>
 )

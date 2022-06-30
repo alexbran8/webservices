@@ -64,14 +64,8 @@ ul a:hover {
     text-decoration: underline;
 }
 
-/* footer p{
-    color:white;
-} */
-
 div[class^="dev-env"] {
-    /* border: 2px solid red; */
-    /* position: fixed; */
-   
+
     top: 50%; left: 0;
     transform: translate(calc(50vw - 50%));
     font-size: 2rem;
@@ -85,18 +79,7 @@ div[class^="dev-env"] {
   .dev-env.open{
     animation: bounce-in 6s ease-in;
 }
-/* .dev-env.close{
-    /* animation: bounce-out 6s ease-in; */
-    /* position: absolute; 
-    bottom: 0px; 
-    left: 0px; 
-    width: 100%;  */
-    /* background-color: #3b5598;  */
-    /* display: block;  */
-    /* -webkit-animation: all 16s ease;  */
-    /* -webkit-animation: expand 15s; */
 
-/* */
 
 @keyframes bounce-in{
     0%    {opacity: 0;   transform: scale(0.5);}

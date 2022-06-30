@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import logo from "../public/logo.svg"
-import { UnderConstruction } from './underConstruction'
+import UnderConstruction from './underConstruction'
 import Image from "next/image"
 
 export default () => (

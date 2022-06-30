@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
 
 import Link from 'next/link'
-export const UnderConstruction = () => {
+
+
+const UnderConstruction = () => {
 
     const [animation, setAnimation] = useState('open')
     const [display, setDisplay] = useState(true)
@@ -37,3 +39,4 @@ export const UnderConstruction = () => {
         </div>
     )
 }
+export default UnderConstruction;

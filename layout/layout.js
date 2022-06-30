@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import favicon from "../public/logo_small.svg"
-import Footer from './footer';
+// import Footer from './footer';
 
 const Layout = ({ children, pageTitle, description, ...props }) => {
     return (

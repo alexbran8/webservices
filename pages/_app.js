@@ -1,4 +1,5 @@
 import "./index.scss"
+import "../layout/card-body.scss"
 // import "./Footer.scss"
 import { AppProps } from 'next/app';
 import Head from 'next/head'

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import logo from "../public/logo.svg"
 import UnderConstruction from './underConstruction'
+import CardBody from '../layout/card-body'
 import Image from "next/image"
 
 export default () => (
@@ -14,6 +15,7 @@ export default () => (
         <nav></nav>
       </div>
       <UnderConstruction />
+      <CardBody />
       <article></article>
       {/* <footer>
         <a href="https://www.facebook.com/webservices.ro" target="blank">dezvoltat de webservices.ro</a>

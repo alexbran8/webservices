@@ -32,8 +32,8 @@ const UnderConstruction = () => {
         <div>
             {display ?
                 <div className={`dev-env ${animation}`}>Lucrăm la dezvoltarea acestei pagini.
-                    <p>Între timp ne puteți contacta sau urmări pe pagina noastră de <a href="https://www.facebook.com/webservices.ro" target="blank">facebook</a>.
-                    </p>
+                    Între timp ne puteți contacta sau urmări pe pagina noastră de <a href="https://www.facebook.com/webservices.ro" target="blank">facebook</a>.
+                    
                 </div>
                 : null}
         </div>

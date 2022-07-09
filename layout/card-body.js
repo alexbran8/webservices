@@ -63,8 +63,8 @@ const CardBody = () => {
             <div className="grid-item">
                 <h3>SOLUTII INFRASTRUCTURA</h3>
                 <ul>
-                    <li>automatizare procese</li>
-                    <li>servicii pentru programare online</li>
+                    <li>configurare masini virtuale</li>
+                    <li>migrare aplicatii in containere</li>
                 </ul>
             </div>    
         </div>

@@ -51,7 +51,17 @@ const CardBody = () => {
                 <h3>STYLING</h3>
             </div>    
             <div className="grid-item">
+                <h3>CONSULTANTA</h3>
+            </div>    
+            <div className="grid-item">
                 <h3>APLICATII COMPLEXE</h3>
+                <ul>
+                    <li>automatizare procese</li>
+                    <li>servicii pentru programare online</li>
+                </ul>
+            </div>    
+            <div className="grid-item">
+                <h3>SOLUTII INFRASTRUCTURA</h3>
                 <ul>
                     <li>automatizare procese</li>
                     <li>servicii pentru programare online</li>

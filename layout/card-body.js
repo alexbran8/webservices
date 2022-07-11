@@ -1,26 +1,33 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoffee, faCircleCheck, faCircleXmark } from '@fortawesome/free-solid-svg-icons'
+
+
 const CardBody = () => {
     return (
         <div className="grid-card-container">
             <div className="grid-item">
-                <h3>SITE PREZENTARE</h3>
+                <div className="grid-item-header">
+                    <h3>SITE PREZENTARE</h3>
+                </div>
                 <ul>
                     <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />Design modern, tema personalizata</li>
-                    <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />o singura pagina prezinta toate componentele site-ului </li>
-                    <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />deployment gratuit, doar cu achizitionarea unui domeniu</li>
+                    <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />o singura pagina contine toate componentele site-ului </li>
+                    <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />deployment gratuit, doar achizitionarea unui domeniu</li>
                     <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />compatibil cu telefoane mobile / tablete / pc / laptop</li>
                     <li> <FontAwesomeIcon className="icon" icon={faCircleCheck} />SEO FRIENDLY (trafic organic / performante / site ranking)</li>
                     <li> <FontAwesomeIcon className="icon" icon={faCircleXmark} />nu necesita stocare date</li>
                 </ul>
+                <div className="grid-item-footer">
+                    <button className="button">Afla mai multe informatii</button>
+                </div>
             </div>
             <div className="grid-item">
                 <h3>SITE BASIC</h3>
                 <ul>
                     <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />Design modern, tema personalizata</li>
-                    <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />pagini dedicate fiecaror sectiuni ale site-ului (prezentare, produse, servicii, contact, etc.)</li>
+                    <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />pagini dedicate fiecaror sectiuni (prezentare, produse, servicii, contact, etc.)</li>
                     <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />necesita stocare date</li>
-                    <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />solutii diverse pentru deployment</li>
+                    <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />solutii diverse pentru gazduire</li>
                     <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />compatibil cu toate tipurile de device (telefoane mobile / tablete / pc / laptop / etc.)</li>
                     <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />SEO FRIENDLY (trafic organic / performante / site ranking)</li>
                     <li> <FontAwesomeIcon className="icon" icon={faCircleXmark} />nu necesita autentificare</li>
@@ -42,7 +49,7 @@ const CardBody = () => {
                 <h3>E-COMMERCE</h3>
 
                 <ul>
-                    <li><FontAwesomeIcon className="icon" icon={faCircleCheck} /> Design modern, tema personalizata</li>
+                    <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />Design modern, tema personalizata</li>
                     <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />mentenanta usoara si rapida</li>
                     <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />compatibil cu toate tipurile de device (telefoane mobile / tablete / pc / laptop / etc.)</li>
                     <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />experienta utilizator imbunatatita datorita folosirii tehnologiilor moderne de programare</li>
@@ -60,7 +67,7 @@ const CardBody = () => {
                 <ul>
                     <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />automatizare procese</li>
                     <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />digitalizare procese</li>
-                    <li><FontAwesomeIcon  className="icon"icon={faCircleCheck} />servicii pentru programare online</li>
+                    <li><FontAwesomeIcon className="icon" icon={faCircleCheck} />servicii pentru programare online</li>
                 </ul>
             </div>
             <div className="grid-item">

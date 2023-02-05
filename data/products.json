@@ -14,7 +14,7 @@
 {
     "title" : "SITE BASIC",
     "description":[
-        "Design modern, tema personalizat",
+        "Design modern, tema personalizata",
         "pagini dedicate fiecaror sectiuni (prezentare, produse, servicii, contact, etc.)",
         "poate necesita stocare date",
         "solutii diverse pentru gazduire",
@@ -37,7 +37,18 @@
     ]
 },
 {
-    "title": "E COMMERCE",
+    "title": "E-COMMERCE",
+    "description":[
+        "Design modern, tema personalizata",
+        "mentenanta rapida",
+        "compatibil cu toate tipurile de device (telefoane mobile / tablete / pc / laptop / etc.)",
+        "experienta utilizator imbunatatita datorita folosirii tehnologiilor moderne de programare",
+        "seo friendly (trafic organic / performante / site ranking)",
+        "multilanguage"
+    ]
+},
+{
+    "title": "BLOG",
     "description":[
         "Design modern, tema personalizata",
         "mentenanta rapida",

@@ -4,6 +4,8 @@ import UnderConstruction from './underConstruction'
 import CardBody from '../layout/card-body'
 import Image from "next/image"
 
+import productsData from "../data/products.json"
+
 export default () => (
   
   <>
@@ -15,11 +17,16 @@ export default () => (
         <nav></nav>
       </div>
       <UnderConstruction />
-      <CardBody />
+      <>
+      {productsData && productsData.map((product, index) => {
+        return <CardBody key={`card-${index}`} title = {product.title} description={product.description}/> 
+      })
+      }
+      </>
       <article></article>
-      {/* <footer>
+      <footer>
         <a href="https://www.facebook.com/webservices.ro" target="blank">dezvoltat de webservices.ro</a>
-      </footer> */}
+      </footer>
     </main>
   </>
 )

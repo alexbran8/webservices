@@ -1,0 +1,65 @@
+[
+    { 
+        
+        "title": "SITE PREZENTARE",
+        "description": [
+            "Design modern, tema personalizata",
+            "o singura pagina contine toate componentele site-ului",
+            "deployment gratuit, doar achizitionarea unui domeniu",
+            "compatibil cu telefoane mobile / tablete / pc / laptop",
+            "nu necesita stocare date",
+            "SEO FRIENDLY (trafic organic / performante / site ranking)"
+        ]
+},
+{
+    "title" : "SITE BASIC",
+    "description":[
+        "Design modern, tema personalizat",
+        "pagini dedicate fiecaror sectiuni (prezentare, produse, servicii, contact, etc.)",
+        "poate necesita stocare date",
+        "solutii diverse pentru gazduire",
+        "compatibil cu toate tipurile de device (telefoane mobile / tablete / pc / laptop / etc.)",
+        "SEO FRIENDLY (trafic organic / performante / site ranking)",
+                    "nu necesita autentificare"
+    ]
+},
+{
+    "title": "SITE PREMIUM",
+    "description":[
+        "Design modern, tema personalizata, animatii",
+        "pagini dedicate fiecaror sectiuni ale site-ului (prezentare, produse, servicii, preturi, contact, etc.)",
+        "necesita stocare date",
+        "solutii diverse pentru deployment",
+        "compatibil cu toate tipurile de device (telefoane mobile / tablete / pc / laptop / etc.)",
+        "TOP SEO PERFORMANCE (trafic organic / performante / site ranking)",
+        "PWA - compatibil cu toate platformele, poate fi instalat"
+    ]
+},
+{
+    "title": "E COMMERCE",
+    "description":[
+        "Design modern, tema personalizata",
+        "mentenanta rapida",
+        "compatibil cu toate tipurile de device (telefoane mobile / tablete / pc / laptop / etc.)",
+        "experienta utilizator imbunatatita datorita folosirii tehnologiilor moderne de programare",
+        "seo friendly (trafic organic / performante / site ranking)"
+    ]
+},
+{
+    "title" : "STYLING/DESIGN"
+},
+{
+    "title": "APLICATII COMPLEXE",
+    "description":[
+        "automatizare procese",
+        "digitalizare procese"
+    ]
+},
+{
+    "title" :"SOLUTII INFRASTRUCTURA",
+    "description":[
+        "configurare masini virtuale",
+        "migrare aplicatii in solutii moderne"
+    ]
+}
+]

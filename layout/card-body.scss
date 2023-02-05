@@ -13,6 +13,7 @@
   
   padding: 10px;
 }
+
 .grid-item {
   position:relative;
 //   background: gray;
@@ -25,6 +26,12 @@
   // text-align: center;
   box-shadow: 5px 5px #888888;
   
+}
+
+
+.grid-item-body ul {
+  // outline: auto;
+  margin: 0
 }
 
 .icon {

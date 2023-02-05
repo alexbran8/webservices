@@ -27,6 +27,7 @@
     "title": "SITE PREMIUM",
     "description":[
         "Design modern, tema personalizata, animatii",
+        "multilanguage",
         "pagini dedicate fiecaror sectiuni ale site-ului (prezentare, produse, servicii, preturi, contact, etc.)",
         "necesita stocare date",
         "solutii diverse pentru deployment",
@@ -42,7 +43,8 @@
         "mentenanta rapida",
         "compatibil cu toate tipurile de device (telefoane mobile / tablete / pc / laptop / etc.)",
         "experienta utilizator imbunatatita datorita folosirii tehnologiilor moderne de programare",
-        "seo friendly (trafic organic / performante / site ranking)"
+        "seo friendly (trafic organic / performante / site ranking)",
+        "multilanguage"
     ]
 },
 {

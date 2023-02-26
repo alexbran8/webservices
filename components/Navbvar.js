@@ -28,15 +28,15 @@ const Navbar = () => {
   return (
     <header>
       <nav className={`nav`}>
-        <div
+        {/* <div
           onClick={() => setNavActive(!navActive)}
           className={`nav__menu-bar`}
         >
           <div></div>
           <div></div>
           <div></div>
-        </div>
-        <div className={`${navActive ? "active" : ""} nav__menu-list`}>
+        </div> */}
+        <div className={`nav__menu-list`}>
           {MENU_LIST.map((menu, idx) => (
             <div
               onClick={() => {

@@ -5,6 +5,9 @@
 const debug = process.env.NODE_ENV !== "production";
 
 module.exports = {
+  env: {
+    PUBLIC_URL: '/',
+  },
   // basePath: '/webservices',
   images: {
     loader: 'akamai',

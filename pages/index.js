@@ -7,7 +7,7 @@ export default () => (
   
   <>
     <main>
-      <UnderConstruction />
+      {/*  */}
       <article></article>
     </main>
   </>

@@ -59,7 +59,12 @@
     ]
 },
 {
-    "title" : "STYLING/DESIGN"
+    "title" : "STYLING/DESIGN",
+    "description":[
+        "create design pentru site nou",
+        "modificare design site existent",
+        "logo"
+    ]
 },
 {
     "title": "APLICATII COMPLEXE",

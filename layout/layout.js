@@ -3,6 +3,8 @@ import favicon from "../public/logo_small.svg"
 // import Footer from './footer';
 import Navbar from "../components/Navbvar"
 import { Header} from "../components/Header";
+import {UnderConstruction} from '../components/UnderConstruction'
+
 const Layout = ({ children, pageTitle, description, ...props }) => {
     return (
         <div className="content">
@@ -12,19 +14,14 @@ const Layout = ({ children, pageTitle, description, ...props }) => {
                 <meta name="description" content={description} />
                 <title>{pageTitle}</title>
             </Head>
-            <Header />
-    <Navbar />    
-    
-            <div className="body-container">
-            {/* <UnderConstruction /> */}
 
-
+                <Header />
+                <Navbar />    
+                <UnderConstruction />
             {/* <Footer /> */}
 
             {children}
-            </div>
-            
-        // </div>
+        </div>
     );
 }
 

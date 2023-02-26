@@ -1,14 +1,13 @@
 import Link from 'next/link'
 import logo from "../public/logo.svg"
-import UnderConstruction from './underConstruction'
+
 
 
 export default () => (
   
   <>
-    <main>
-      {/*  */}
-      <article></article>
-    </main>
+    <div className="center">
+      <h2></h2>
+    </div>
   </>
 )

@@ -16,8 +16,7 @@ module.exports = {
       // "/about": { page: "/about" },
     }
   },
-  //assetPrefix: '',
-  assetPrefix: !debug ? '/' : '',
+  assetPrefix: !debug ? '/' : '.',
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     // console.log('webpack');

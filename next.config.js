@@ -14,13 +14,13 @@ module.exports = {
     return {
       "/": { page: "/" },
       "/products": { page: "/products" },
+      "/projects": { page: "/projects" },
     }
   },
-  assetPrefix: !debug ? '/' : '.',
+  assetPrefix: !debug ? '/' : '',
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
-    // console.log('webpack');
-    // console.log(config.module.rules, dev);
+
     config.module.rules = config.module.rules.map(rule => {
       if(rule.loader === 'babel-loader') {
         rule.options.cacheDirectory = false

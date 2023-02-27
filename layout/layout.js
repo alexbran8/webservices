@@ -16,8 +16,9 @@ const Layout = ({ children, pageTitle, description, ...props }) => {
             </Head>
 
                 <Header />
-                <Navbar />    
                 <UnderConstruction />
+                <Navbar />    
+
             {/* <Footer /> */}
 
             {children}

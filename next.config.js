@@ -18,6 +18,7 @@ module.exports = {
       "/": { page: "/" },
       "/products": { page: "/products" },
       "/projects": { page: "/projects" },
+      "/contact": { page: "/contact" },
     }
   },
   assetPrefix: !debug ? '/' : '',

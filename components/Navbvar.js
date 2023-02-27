@@ -8,6 +8,7 @@ const MENU_LIST = [
   { text: "Home", href: "/" },
   { text: "Produse", href: "/products" },
   { text: "Proiecte", href: "/projects" },
+  { text: "Contact", href: "/contact"}
 ];
 
 const NavItem = ({ text, href, active }) => {

@@ -49,6 +49,7 @@ ul a:hover {
 
 div[class^="dev-env"] {
     // top: 50%; left: 0;
+    text-align: center;
     transform: translate(calc(50vw - 50%));
     font-size: 1.1rem;
     color: red;

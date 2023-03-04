@@ -7,7 +7,6 @@
             "o singura pagina contine toate componentele site-ului",
             "deployment gratuit, doar achizitionarea unui domeniu",
             "compatibil cu telefoane mobile / tablete / pc / laptop",
-            "nu necesita stocare date",
             "SEO FRIENDLY (trafic organic / performante / site ranking)"
         ]
 },
@@ -16,11 +15,9 @@
     "description":[
         "Design modern, tema personalizata",
         "pagini dedicate fiecaror sectiuni (prezentare, produse, servicii, contact, etc.)",
-        "poate necesita stocare date",
         "solutii diverse pentru gazduire",
         "compatibil cu toate tipurile de device (telefoane mobile / tablete / pc / laptop / etc.)",
-        "SEO FRIENDLY (trafic organic / performante / site ranking)",
-                    "nu necesita autentificare"
+        "SEO FRIENDLY (trafic organic / performante / site ranking)"
     ]
 },
 {
@@ -29,7 +26,6 @@
         "Design modern, tema personalizata, animatii",
         "multilanguage",
         "pagini dedicate fiecaror sectiuni ale site-ului (prezentare, produse, servicii, preturi, contact, etc.)",
-        "necesita stocare date",
         "solutii diverse pentru deployment",
         "compatibil cu toate tipurile de device (telefoane mobile / tablete / pc / laptop / etc.)",
         "TOP SEO PERFORMANCE (trafic organic / performante / site ranking)",

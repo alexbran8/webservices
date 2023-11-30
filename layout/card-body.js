@@ -18,7 +18,7 @@ const CardBody = (props) => {
           {description &&
             description.map((item, index) => (
               <li key={index}>
-                <FontAwesomeIcon className="icon" icon={faCircleCheck} />
+                {/* <FontAwesomeIcon className="icon" icon={faCircleCheck} /> */}
                 {item}
               </li>
             ))}

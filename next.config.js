@@ -5,6 +5,7 @@
 const debug = process.env.NODE_ENV !== "production";
 
 module.exports = {
+  
   env: {
     PUBLIC_URL: '/',
   },
@@ -22,6 +23,7 @@ module.exports = {
     }
   },
   assetPrefix: !debug ? '/' : '',
+  output: 'export',
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
 

@@ -24,10 +24,24 @@
   
 }
 
-
 .grid-item-body ul {
-  // outline: auto;
+  
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
   padding-top: 5%;
+  margin: 0
+}
+
+
+.grid-item-body li {
+  
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  
+  padding-top: 1%;
   margin: 0
 }
 

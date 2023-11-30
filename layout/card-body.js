@@ -1,9 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCoffee,
-  faCircleCheck,
-  faCircleXmark,
-} from "@fortawesome/free-solid-svg-icons";
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import data from "../data/products.json";
 
 const CardBody = (props) => {
@@ -18,7 +13,7 @@ const CardBody = (props) => {
           {description &&
             description.map((item, index) => (
               <li key={index}>
-                {/* <FontAwesomeIcon className="icon" icon={faCircleCheck} /> */}
+                <CheckCircleOutlineIcon className="icon"  />
                 {item}
               </li>
             ))}

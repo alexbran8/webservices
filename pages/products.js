@@ -1,6 +1,6 @@
 import React from "react";
 import CardBody from '../layout/card-body'
-import Image from "next/image"
+// import Image from "next/image"
 
 import productsData from "../data/products.json"
 
